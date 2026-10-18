@@ -10,6 +10,18 @@ Python replication of the volatility modelling from my BComHons Economics resear
 
 ![Conditional volatility](figures/btc_garch_volatility.png)
 
+## Extension: Student-t errors
+| | Normal | Student-t |
+|---|---|---|
+| α + β | 0.965 | 1.000 |
+| Half-life (days) | 19.4 | ∞ |
+| ν (tail df) | – | 3.17 |
+| AIC | 19,101.6 | 18,148.6 |
+
+Fat-tailed errors fit decisively better (ΔAIC = −953) and push persistence to ≈ 1 (IGARCH-like), so the Normal model's 19-day half-life is not robust.
+
+![Normal vs Student-t](figures/btc_garch_normal_vs_t.png)
+
 ## Run it
 ```bash
 pip install -r requirements.txt
@@ -17,6 +29,5 @@ jupyter lab notebooks/01_btc_garch.ipynb
 ```
 
 ## Next steps
-- Student-t errors for fat tails
 - EGARCH / GJR-GARCH for asymmetric (leverage) effects
 - Rolling out-of-sample volatility forecasts and VaR backtest
