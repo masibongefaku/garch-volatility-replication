@@ -1,0 +1,8 @@
+# LEARNINGS
+
+Concepts learned while building this, in my own words. If I can't write it here
+plainly, I don't understand it well enough to commit code that uses it (rule R1).
+
+Add with `python scripts/track.py learn "concept: explanation"`.
+
+<!-- entries below -->
