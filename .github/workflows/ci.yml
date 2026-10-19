@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dev tools
+        run: pip install -r requirements-dev.txt
+      - name: Lint
+        run: ruff check .
+      - name: Test
+        run: pytest -q
+      - name: Memory files present
+        run: |
+          for f in CLAUDE.md memory/STATUS.md memory/SESSION_LOG.md memory/DECISIONS.md; do
+            test -f "$f" || { echo "Missing $f"; exit 1; }
+          done

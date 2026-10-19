@@ -1,0 +1,14 @@
+# SESSION LOG
+
+One line per thing done. Include numbers where there are any.
+Add entries with `python scripts/track.py log "..."`.
+
+<!-- entries below, newest first -->
+
+### 2026-10-19
+- Installed repo control kit (CLAUDE.md rules, memory/, track.py, CI, templates) on branch chore/repo-kit
+
+### Before 2026-10-19 (from README)
+- GARCH(1,1) Normal on daily BTC-USD, Feb 2015 - Jan 2025, n = 3,652: alpha = 0.125, beta = 0.840, persistence 0.965, half-life ~19.4 days, long-run vol ~79% annualised
+- Student-t extension: persistence 1.000, nu = 3.17, AIC 18,148.6 vs 19,101.6 Normal (delta AIC = -953)
+- Figures: btc_garch_volatility.png, btc_garch_normal_vs_t.png

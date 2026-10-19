@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Repo control kit (rules R6/R8) ---
+data/raw/
+data/processed/
+.env
+*.key
