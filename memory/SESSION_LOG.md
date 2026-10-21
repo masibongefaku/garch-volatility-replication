@@ -6,6 +6,7 @@ Add entries with `python scripts/track.py log "..."`.
 <!-- entries below, newest first -->
 
 ### 2026-10-21
+- DONE: Fill data/README.md: confirm BTC-USD source and download date
 - requirements.txt: 116 frozen pkgs (UTF-16) -> 6 direct deps (UTF-8); clean-venv install + imports verified
 - DONE: Slim requirements.txt to direct deps only (it is a UTF-16 full pip freeze incl. Windows-only pywinpty)
 - CI green on main (commit 43618a7): ruff clean, 3/3 tests pass on GitHub Actions

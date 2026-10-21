@@ -5,8 +5,8 @@ Tick boxes as milestones complete. `python scripts/track.py status` reports prog
 ## M0 - Foundation
 - [x] Repo control kit merged to main
 - [x] CI green on main
-- [ ] requirements.txt slimmed to cross-platform direct deps
-- [ ] data/README.md lists source, date range, download date
+- [x] requirements.txt slimmed to cross-platform direct deps
+- [x] data/README.md lists source, date range, download date
 
 ## M1 - Baseline replication
 - [x] GARCH(1,1) Normal fitted on BTC-USD, results in README

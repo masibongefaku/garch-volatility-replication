@@ -6,9 +6,9 @@ _Last updated: 2026-10-21_
 Install repo control kit, then make the repo reproducible on any machine.
 
 ## Next actions
-- [ ] Fill data/README.md: confirm BTC-USD source and download date
 - [ ] Move GARCH fitting code from notebook into src/ with a known-value test (R4, R7)
 - [ ] Write docs/SPEC.md section for EGARCH / GJR-GARCH extension
+- [ ] Save BTC-USD CSV snapshot to data/sample/ and load from it by default (Yahoo revises history)
 
 ## Blockers
 - none
