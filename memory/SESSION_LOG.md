@@ -5,6 +5,9 @@ Add entries with `python scripts/track.py log "..."`.
 
 <!-- entries below, newest first -->
 
+### 2026-10-21
+- CI green on main (commit 43618a7): ruff clean, 3/3 tests pass on GitHub Actions
+
 ### 2026-10-19
 - DONE: Merge chore/repo-kit into main and confirm CI is green
 - Installed repo control kit (CLAUDE.md rules, memory/, track.py, CI, templates) on branch chore/repo-kit
