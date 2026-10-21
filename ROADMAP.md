@@ -3,7 +3,7 @@
 Tick boxes as milestones complete. `python scripts/track.py status` reports progress.
 
 ## M0 - Foundation
-- [ ] Repo control kit merged to main
+- [x] Repo control kit merged to main
 - [ ] CI green on main
 - [ ] requirements.txt slimmed to cross-platform direct deps
 - [ ] data/README.md lists source, date range, download date

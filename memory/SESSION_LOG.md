@@ -6,6 +6,7 @@ Add entries with `python scripts/track.py log "..."`.
 <!-- entries below, newest first -->
 
 ### 2026-10-19
+- DONE: Merge chore/repo-kit into main and confirm CI is green
 - Installed repo control kit (CLAUDE.md rules, memory/, track.py, CI, templates) on branch chore/repo-kit
 
 ### Before 2026-10-19 (from README)
