@@ -6,6 +6,8 @@ Add entries with `python scripts/track.py log "..."`.
 <!-- entries below, newest first -->
 
 ### 2026-10-21
+- Decision D-004: Snapshot data before writing known-value tests
+- Session end: M0 complete (4/4), roadmap 7/17 (41%). Reordered: CSV snapshot first so src/ tests have fixed input data
 - DONE: Fill data/README.md: confirm BTC-USD source and download date
 - requirements.txt: 116 frozen pkgs (UTF-16) -> 6 direct deps (UTF-8); clean-venv install + imports verified
 - DONE: Slim requirements.txt to direct deps only (it is a UTF-16 full pip freeze incl. Windows-only pywinpty)

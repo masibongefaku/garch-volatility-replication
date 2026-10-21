@@ -19,3 +19,8 @@ Never delete a decision. If it changes, add a new one that supersedes it.
 - **Why:** requirements.txt is a UTF-16 full pip freeze with Windows-only pywinpty; it would fail on Linux CI.
 - **Alternatives rejected:** Installing requirements.txt in CI.
 - **Revisit if:** requirements.txt is slimmed to cross-platform direct deps; then CI can install it and test src/.
+
+## D-004 - 2026-10-21 - Snapshot data before writing known-value tests
+- **Why:** yfinance re-downloads each run and Yahoo revises history; tests need fixed input or they fail even when code is correct
+- **Alternatives rejected:** Write src/ tests first against live downloads
+- **Revisit if:** never - fixed test data is standard practice
